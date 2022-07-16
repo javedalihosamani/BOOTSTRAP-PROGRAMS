@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    line-height: 2;
+    font-family: Verdana;
+}
+.jumbotron {
+    text-align: center;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.box {
+    background-color: dimgrey;
+    padding: 20px;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.banner {
+    /*background-color: red;
+    background-image: url(../Images/image.jpg);*/
+    background: linear-gradient(rgba(255, 166, 2,0.5), rgba(7, 131, 7,0.5)), url(../Images/image.jpg) ;
+    background-position: center;
+    height: 700px;
+}
+/*
+.img-thumbnail{
+    border: 1px solid red;
+    background-color: yellow;
+}*/
+.navbar{
+    border-radius: 0%;
+    margin-bottom: 0%;
+}
+.beTitle{
+    margin: 50px auto;
+    text-align: center;
+    transition: 1s;
+}
+.beTitle:hover{
+    color: red;
+}

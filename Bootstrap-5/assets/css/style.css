@@ -1,0 +1,15 @@
+.jumbotron{
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 5px;
+}
+.be-row-height{
+    background-color:lightskyblue;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+}
+.be-img{
+    width: 300px; 
+    height:300px;
+}

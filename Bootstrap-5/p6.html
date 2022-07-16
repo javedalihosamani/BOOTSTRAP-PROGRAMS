@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BT</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="jumbotron">Reordering</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Default ROW -->
+            <section class="row">
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <h2 class="bg-light">Default Col-1</h2>
+                </section>
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <h2 class="bg-light">Default Col-2</h2>
+                </section>
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <h2 class="bg-light">Default Col-3</h2>
+                </section>
+            </section>
+            <!-- Reordering Cols-1 -->
+            <section class="row">
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 order-1">
+                    <h2 class="bg-light">Reordering Col-1</h2>
+                </section>
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 order-5">
+                    <h2 class="bg-light">Reordering Col-2</h2>
+                </section>
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 order-2">
+                    <h2 class="bg-light">Reordering Col-3</h2>
+                </section>
+            </section>
+            <!-- Reordering SM-COLS -->
+            <section class="row">
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 order-sm-3 order-md-1">
+                    <h2 class="bg-light">Reordering Col-SM-1</h2>
+                </section>
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 order-sm-1 order-md-5">
+                    <h2 class="bg-light">Reordering Col-SM-2</h2>
+                </section>
+                <section class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 order-sm-2 order-md-2">
+                    <h2 class="bg-light">Reordering Col-SM-3</h2>
+                </section>
+            </section>
+        </div>
+        <script src="assets/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
